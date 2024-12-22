@@ -9,6 +9,6 @@ interface TwestyApi {
 
 
     @GET("/v3/b/6766fb39acd3cb34a8bd6319?meta=false")
-    suspend fun getTweets(@Header("X-JSON-Path") category:String) :  Response<List<TweetListItem>>
+    suspend fun getTweets(@Header("X-JSON-Path") category:String) :Response<List<TweetListItem>>
 
 }
