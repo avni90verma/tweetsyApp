@@ -14,7 +14,7 @@ interface TweetsyApi {
 
 
     @GET("/v3/b/6766fb39acd3cb34a8bd6319?meta=false")
-    @Headers("X-JSON-Path")
+    @Headers("X-JSON-Path: tweets..category")
     suspend fun getCategories() : Response<List<String>>
 
 }
