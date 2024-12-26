@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Headers
 
-interface TwestyApi {
+interface TweetsyApi {
 
 
     @GET("/v3/b/6766fb39acd3cb34a8bd6319?meta=false")
